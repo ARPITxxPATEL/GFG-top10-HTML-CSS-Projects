@@ -1,0 +1,81 @@
+*{
+  padding:0;
+  margin:0;
+  font-family:sans-serif;
+  color:aliceblue;
+}
+
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url("./bg.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+  background-color:#7868E6;
+}
+
+p{
+  font-size:1rem;
+  font-style: italic;
+}
+
+#main > *{
+  text-align: center;
+  margin:5%;
+}
+
+form{
+  width:50vw;
+  background-color: rgba(63, 51, 81, 0.8);
+  border-radius:10px;
+  box-shadow: 0px 0px 2px 2px rgba(95, 79, 119, 0.8);
+}
+
+fieldset {
+  text-align:left;
+  padding:5% 10%;
+  border:0px;
+}
+
+fieldset *{
+  margin: 5px 0;
+  font-size:1.5rem;
+}
+
+span{
+  font-size:1.3rem;
+}
+
+fieldset > input[type="text"],fieldset > input[type="number"],fieldset > select, fieldset > select > option{
+  border:0px;
+  color:gray;
+  padding:0.5rem;
+  width:100%;
+  border-radius:5px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  border:0px;
+  width:1rem;
+  height:1rem;
+  margin:0 5px 0 0;
+}
+
+textarea{
+  color:gray;
+  width:100%;
+  height:10vw;
+  padding:0.5rem;
+  border-radius:5px;
+}
+
+#submit{
+  background-color:rgb(51, 160, 51);
+  color:aliceblue;
+  padding:0.5rem;
+  width:100%;
+  border:0px;
+  border-radius:5px;
+  cursor:pointer;
+}
